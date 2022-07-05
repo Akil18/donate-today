@@ -63,6 +63,7 @@ p {
 
 #amount-list > li {
   padding: 2%;
+  background-color: #fafafa;
 }
 
 #item-2 {
@@ -71,7 +72,7 @@ p {
   background-color: #ffeeee;
 }
 
-#input-center {
+.input-center {
   display: flex;
   justify-content: center;
   margin: 2%;
@@ -113,6 +114,34 @@ p {
 
 #education-card {
   background-color: rgba(255, 244, 214, 1);
+}
+
+.map > p {
+  margin: 3% 25%;
+}
+
+.subscription > p {
+  margin: 3% 25%;
+}
+
+#subscribe {
+  background-color: #fff4d6;
+  margin: 0% 22%;
+  padding: 5%;
+}
+
+#email-input {
+  outline: none;
+  border: none;
+  color: #aa9f9f;
+  background-color: #d9d9d9;
+  font-size: 16px;
+  padding: 10px 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#subscribe-btn {
+  border-radius: 0px;
 }
 
 footer {
